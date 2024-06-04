@@ -18,35 +18,38 @@ section {
     flex-direction: column;
 }
 
+.services,
+.produits {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
 .services {
     gap: 3em;
     width: 800px;
-    align-self: center;
-    display: flex;
-    justify-content: center;
 }
 .produits {
     gap: 2em;
-    width: 800px;
-    align-self: center;
+}
+.services > div,
+.produits > div {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .services > div {
-    background-color: var(--light-gray);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0.5em;
+    width: 230px;
 }
-.produits > div {
+.produits * {
     background-color: var(--light-orange-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     color: var(--gray-color);
+    max-width: 260px;
+}
+.services-text {
+    background-color: var(--light-gray);
+    padding: 0.5em;
+    padding-top: 2em;
 }
 .product-text {
     padding: 0.5em;
@@ -54,7 +57,7 @@ section {
 }
 .services i {
     position: relative;
-    top: -30px;
+    top: 20px;
     color: white;
     background-color: var(--blue-color);
     font-size: 2em;
@@ -62,9 +65,6 @@ section {
     border-radius: 50%;
 }
 
-.produits img {
-    max-width: 260px;
-}
 .topnav {
     background-color: #f59a24;
     overflow: hidden;
