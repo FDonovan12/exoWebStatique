@@ -1,6 +1,7 @@
 :root {
     --blue-color: #02a7f0;
     --orange-color: #f59a24;
+    --light-orange-color: #fdead2;
     --light-gray: #d7d7d7;
 }
 
@@ -9,20 +10,26 @@ h2 {
     align-self: center;
     margin: 2em;
 }
-div {
-    display: flex;
-    justify-content: center;
-}
+
 section {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.services,
+
+.services {
+    gap: 3em;
+    width: 800px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
 .produits {
     gap: 1em;
     width: 800px;
     align-self: center;
+    display: flex;
+    justify-content: center;
 }
 .services > div {
     background-color: var(--light-gray);
@@ -33,7 +40,7 @@ section {
     padding: 0.5em;
 }
 .produits > div {
-    background-color: var(--light-gray);
+    background-color: var(--light-orange-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +57,7 @@ section {
 }
 
 .produits img {
-    max-width: 250px;
+    max-width: 260px;
 }
 .topnav {
     background-color: #f59a24;
