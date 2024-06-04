@@ -101,7 +101,7 @@
             </section>
             <section>
                 <h2>CONTACTEZ-NOUS</h2>
-                <form>
+                <form class="formulaire">
                     <h3>Formulaire:</h3>
                     <input
                         type="text"
@@ -118,40 +118,43 @@
                         name="form_objet"
                         placeholder="objet de votre demande" />
                     <br />
-                    <input
-                        type="radio"
-                        id="design"
-                        name="form_choix"
-                        value="Design" />
-                    <label for="design">Design</label>
-                    <input
-                        type="radio"
-                        id="web"
-                        name="form_choix"
-                        value="Web" />
-                    <label for="web">Web</label>
-                    <input
-                        type="radio"
-                        id="autre"
-                        name="form_choix"
-                        value="Autre" />
-                    <label for="autre">Autre</label>
-                    <br />
+                    <div>
+                        <input
+                            type="radio"
+                            id="design"
+                            name="form_choix"
+                            value="Design" />
+                        <label for="design">Design</label>
+                        <input
+                            type="radio"
+                            id="web"
+                            name="form_choix"
+                            value="Web" />
+                        <label for="web">Web</label>
+                        <input
+                            type="radio"
+                            id="autre"
+                            name="form_choix"
+                            value="Autre" />
+                        <label for="autre">Autre</label>
+                    </div>
                     <select id="pays">
                         <option value="France">France</option>
+                        <option value="Allemagne">Allemagne</option>
                     </select>
-                    <br />
-                    <textarea name="form_message"></textarea>
-                    <br />
-                    <input
-                        type="checkbox"
-                        name="form_consent"
-                        id="consent"
-                        value="Consent" />
-                    <label for="consent">
-                        Je consens à ce que mes données soient utilisées
-                    </label>
-                    <br />
+                    <textarea
+                        name="form_message"
+                        placeholder="Message"></textarea>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="form_consent"
+                            id="consent"
+                            value="Consent" />
+                        <label for="consent">
+                            Je consens à ce que mes données soient utilisées
+                        </label>
+                    </div>
                     <input
                         type="submit"
                         name="form_submit"
@@ -167,6 +170,7 @@
                 <li><a href="">RECRUTEMENT</a></li>
             </ul>
             <div class="formulaireNewsletter">
+                <h3>NEWSLETTER</h3>
                 <form action="" method="post">
                     <input type="email" value="adresse@mail.com" />
                     <input type="submit" id="boutonEnvoyer" value="ENVOYER" />
@@ -174,15 +178,26 @@
             </div>
             <div>
                 <img
-                    src=""
+                    src="intégration_maquette/images/googlemap.jpg"
                     alt="Très belle carte de google incroyablement bien" />
-                CARTE GOOGLE MAPS ICI
             </div>
             <div class="réseauxSociaux">
                 <h3>Rejoinez-nous</h3>
-                <img src="" alt="PasseBouque" />
-                <img src="" alt="Pissetagrame" />
-                <img src="" alt="Xitter" />
+                <div class="fbLogo">
+                    <img
+                        src="intégration_maquette/logo/fb_icon_325x325.png"
+                        alt="PasseBouque" />
+                </div>
+                <div class="instaLogo">
+                    <img
+                        src="intégration_maquette/logo/Instagram_logo_2022.svg.png"
+                        alt="Pissetagrame" />
+                </div>
+                <div class="twitterLogo">
+                    <img
+                        src="intégration_maquette/logo/Logo_of_Twitter.svg.png"
+                        alt="Xitter" />
+                </div>
             </div>
         </footer>
     </body>

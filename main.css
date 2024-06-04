@@ -1,21 +1,21 @@
 :root {
-    --blue-color: #02a7f0;
-    --orange-color: #f59a24;
-    --light-orange-color: #fdead2;
-    --light-gray: #d7d7d7;
-    --gray-color: #686868;
+  --blue-color: #02a7f0;
+  --orange-color: #f59a24;
+  --light-orange-color: #fdead2;
+  --light-gray: #d7d7d7;
+  --gray-color: #686868;
 }
 
 h2 {
-    color: var(--orange-color);
-    align-self: center;
-    margin: 3em 2em 2em 2em;
+  color: var(--orange-color);
+  align-self: center;
+  margin: 3em 2em 2em 2em;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .services,
@@ -52,8 +52,8 @@ section {
     padding-top: 2em;
 }
 .product-text {
-    padding: 0.5em;
-    padding-top: 1em;
+  padding: 0.5em;
+  padding-top: 1em;
 }
 .services i {
     position: relative;
@@ -65,33 +65,84 @@ section {
     border-radius: 50%;
 }
 
+header {
+  background-color: #f59a24;
+}
 .topnav {
-    background-color: #f59a24;
-    overflow: hidden;
-    float: right;
+  background-color: #f59a24;
+  overflow: hidden;
+  float: right;
+  margin-right: 7rem;
+  margin-top: 1rem;
 }
 
 .topnav a {
-    float: left;
-    color: #02a7f0;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  color: #02a7f0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-    background-color: #02a7f0;
-    color: white;
+  background-color: #02a7f0;
+  color: white;
 }
 
 .topnav a.active {
-    background-color: #02a7f0;
-    color: white;
+  background-color: #02a7f0;
+  color: white;
 }
+
+.formulaire {
+    gap: 1em;
+    width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulaire > div {
+    gap: 2em;
+    width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #headerLogo {
-    height: 100px;
+  height: 75px;
 }
 #megaliste {
-    list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  list-style-type: none;
+}
+footer {
+  height: 100px;
+  display: flex;
+  align-content: space-between;
+}
+.réseauxSociaux {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.fbLogo {
+  max-width: 1rem;
+  max-height: 0.5px;
+}
+.instaLogo {
+  max-width: 0.5px;
+  max-height: 0.5px;
+}
+.twitterLogo {
+  max-width: 0.5px;
+  max-height: 0.5px;
 }
