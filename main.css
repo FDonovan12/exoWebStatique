@@ -9,7 +9,10 @@
     --light-gray: #d7d7d7;
     --gray-color: #686868;
 }
-
+body {
+    padding: 0em;
+    margin: 0em;
+}
 h1 {
     color: var(--blue-color);
     text-align: center;
