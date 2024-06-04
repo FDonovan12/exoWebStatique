@@ -13,6 +13,39 @@ body {
     padding: 0em;
     margin: 0em;
 }
+
+/* Thibault */
+header {
+    background-color: #f59a24;
+}
+.topnav {
+    background-color: #f59a24;
+    overflow: hidden;
+    float: right;
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+.topnav a {
+    float: left;
+    color: #02a7f0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #02a7f0;
+    color: white;
+}
+.topnav a.active {
+    background-color: #02a7f0;
+    color: white;
+}
+#headerLogo {
+    height: 75px;
+}
+
+/* David */
 h1 {
     color: var(--blue-color);
     text-align: center;
@@ -21,7 +54,6 @@ h1 {
     margin-bottom: 0em;
     font-size: 5em;
 }
-
 .div1img {
     background-image: url(intégration_maquette/images/slide/slide-2.jpg);
     height: 500px;
@@ -31,7 +63,6 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-
 .div1paragraph {
     border: var(--blue-color) 0.2em solid;
     border-radius: 2.5em;
@@ -46,7 +77,6 @@ h1 {
     align-items: center;
     font-size: 1.4em;
 }
-
 .div1btn {
     text-align: center;
     border: none;
@@ -59,18 +89,19 @@ h1 {
     color: var(--light-gray);
 }
 
+/* Donovan et Fabian */
 h2 {
     color: var(--orange-color);
     align-self: center;
     margin: 3em 2em 2em 2em;
 }
-
 section {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
+/* Donovan */
 .services,
 .produits {
     align-self: center;
@@ -118,35 +149,7 @@ section {
     border-radius: 50%;
 }
 
-header {
-    background-color: #f59a24;
-}
-.topnav {
-    background-color: #f59a24;
-    overflow: hidden;
-    float: right;
-    margin-right: 7rem;
-    margin-top: 1rem;
-}
-
-.topnav a {
-    float: left;
-    color: #02a7f0;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: #02a7f0;
-    color: white;
-}
-
-.topnav a.active {
-    background-color: #02a7f0;
-    color: white;
-}
+/* Fabian */
 .contact > img {
     max-height: 500px;
 }
@@ -160,7 +163,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
-
 .formulaire {
     gap: 1em;
     width: 400px;
@@ -169,7 +171,6 @@ header {
     flex-direction: column;
     justify-content: center;
 }
-
 .formulaire > div {
     gap: 2em;
     width: 400px;
@@ -179,16 +180,7 @@ header {
     justify-content: center;
 }
 
-#headerLogo {
-    height: 75px;
-}
-#megaliste {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    list-style-type: none;
-    gap: 1em;
-}
+/* Thibault footer */
 footer {
     max-width: 100%;
     max-height: 250px;
@@ -197,6 +189,13 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--gray-color);
+}
+#megaliste {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    list-style-type: none;
+    gap: 1em;
 }
 .réseauxSociaux img {
     max-width: 1.5em;
@@ -212,13 +211,11 @@ footer {
 .googleMap {
     height: 250px;
 }
-
 .formulaireNewsletter > form {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
 }
-
 .formulaireNewsletter #boutonEnvoyer {
     background-color: var(--orange-color);
     border-radius: 15px;
@@ -231,7 +228,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: space-between;
 }
 .logos {
     display: flex;
