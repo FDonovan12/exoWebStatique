@@ -89,6 +89,25 @@ section {
     background-color: #02a7f0;
     color: white;
 }
+
+.formulaire {
+    gap: 1em;
+    width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulaire > div {
+    gap: 2em;
+    width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #headerLogo {
     height: 100px;
 }
