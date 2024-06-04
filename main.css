@@ -95,6 +95,16 @@ header {
   color: white;
 }
 
+.contact {
+    background-color: #F6F6F6;
+    gap: 1em;
+    height: 500px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .formulaire {
     gap: 1em;
     width: 400px;
