@@ -193,6 +193,7 @@ footer {
     flex-direction: column;
     align-items: center;
     align-content: space-evenly;
+    margin-right: 2em;
 }
 .googleMap {
     height: 250px;
