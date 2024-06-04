@@ -101,7 +101,7 @@
             </section>
             <section>
                 <h2>CONTACTEZ-NOUS</h2>
-                <form>
+                <form class="formulaire">
                     <h3>Formulaire:</h3>
                     <input
                         type="text"
@@ -118,30 +118,35 @@
                         name="form_objet"
                         placeholder="objet de votre demande" />
                     <br />
-                    <input
-                        type="radio"
-                        id="design"
-                        name="form_choix"
-                        value="Design" />
-                    <label for="design">Design</label>
-                    <input
-                        type="radio"
-                        id="web"
-                        name="form_choix"
-                        value="Web" />
-                    <label for="web">Web</label>
-                    <input
-                        type="radio"
-                        id="autre"
-                        name="form_choix"
-                        value="Autre" />
-                    <label for="autre">Autre</label><br>
+                    <div>
+                      <input
+                          type="radio"
+                          id="design"
+                          name="form_choix"
+                          value="Design" />
+                      <label for="design">Design</label>
+                      <input
+                          type="radio"
+                          id="web"
+                          name="form_choix"
+                          value="Web" />
+                      <label for="web">Web</label>
+                      <input
+                          type="radio"
+                          id="autre"
+                          name="form_choix"
+                          value="Autre" />
+                      <label for="autre">Autre</label>
+                    </div>
                     <select id="pays">
                       <option value="France">France</option>
-                    </select><br>
-                    <textarea name="form_message"></textarea><br>
-                    <input type="checkbox" name="form_consent" id="consent" value="Consent">
-                    <label for="consent">Je consens à ce que mes données soient utilisées</label><br>
+                      <option value="Allemagne">Allemagne</option>
+                    </select>
+                    <textarea name="form_message" placeholder="Message"></textarea>
+                    <div>
+                      <input type="checkbox" name="form_consent" id="consent" value="Consent">
+                      <label for="consent">Je consens à ce que mes données soient utilisées</label>
+                    </div>
                     <input type="submit" name="form_submit" id="submit" value="Envoyer">
                 </form>
             </section>
