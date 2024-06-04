@@ -173,6 +173,7 @@ header {
     flex-direction: column;
     align-content: space-between;
     list-style-type: none;
+    gap: 1em;
 }
 footer {
     max-width: 100%;
@@ -184,11 +185,12 @@ footer {
     background-color: var(--gray-color);
 }
 .réseauxSociaux img {
-    max-width: 1em;
-    max-height: 1em;
+    max-width: 1.5em;
+    max-height: 1.5em;
 }
 .réseauxSociaux {
     display: flex;
+    flex-direction: column;
     align-items: center;
     align-content: space-evenly;
 }
@@ -215,4 +217,9 @@ footer {
     flex-direction: column;
     align-items: center;
     align-content: space-between;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8em;
 }
