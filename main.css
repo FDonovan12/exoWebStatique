@@ -3,12 +3,13 @@
     --orange-color: #f59a24;
     --light-orange-color: #fdead2;
     --light-gray: #d7d7d7;
+    --gray-color: #686868;
 }
 
 h2 {
     color: var(--orange-color);
     align-self: center;
-    margin: 2em;
+    margin: 3em 2em 2em 2em;
 }
 
 section {
@@ -25,7 +26,7 @@ section {
     justify-content: center;
 }
 .produits {
-    gap: 1em;
+    gap: 2em;
     width: 800px;
     align-self: center;
     display: flex;
@@ -36,7 +37,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
     padding: 0.5em;
 }
 .produits > div {
@@ -44,7 +45,12 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    color: var(--gray-color);
+}
+.product-text {
+    padding: 0.5em;
+    padding-top: 1em;
 }
 .services i {
     position: relative;
