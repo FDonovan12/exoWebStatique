@@ -165,6 +165,7 @@ footer {
     height: 100px;
     display: flex;
     align-content: space-between;
+    background-color: var(--gray-color);
 }
 .réseauxSociaux img {
     max-width: 1em;
