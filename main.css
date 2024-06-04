@@ -1,0 +1,188 @@
+:root {
+  --blue-color: #02a7f0;
+  --orange-color: #f59a24;
+  --light-orange-color: #fdead2;
+  --light-gray: #d7d7d7;
+  --gray-color: #686868;
+}
+
+.h1 {
+  color: var(--blue-color);
+  text-align: center;
+  object-fit: contain;
+  margin: 2em;
+  font-size: 40em;
+}
+
+.div1img {
+  background-image: url(intégration_maquette/images/slide/slide-2.jpg) ;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.div1paragraph {
+  border: blue 1px dotted;
+  width: 35em;
+  height: auto;
+  margin: 2em;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div1btn {
+text-align: center;
+border: none;
+background-color: var(--blue-color);
+border-radius: 5px;
+margin: 2em;
+padding: 2em;
+color: var(--light-gray);
+}
+
+h2 {
+  color: var(--orange-color);
+  align-self: center;
+  margin: 3em 2em 2em 2em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services,
+.produits {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.services {
+    gap: 3em;
+    width: 800px;
+}
+.produits {
+    gap: 2em;
+}
+.services > div,
+.produits > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.services > div {
+    width: 230px;
+}
+.produits * {
+    background-color: var(--light-orange-color);
+    color: var(--gray-color);
+    max-width: 260px;
+}
+.services-text {
+    background-color: var(--light-gray);
+    padding: 0.5em;
+    padding-top: 2em;
+}
+.product-text {
+  padding: 0.5em;
+  padding-top: 1em;
+}
+.services i {
+    position: relative;
+    top: 20px;
+    color: white;
+    background-color: var(--blue-color);
+    font-size: 2em;
+    padding: 0.3em;
+    border-radius: 50%;
+}
+
+header {
+  background-color: #f59a24;
+}
+.topnav {
+  background-color: #f59a24;
+  overflow: hidden;
+  float: right;
+  margin-right: 7rem;
+  margin-top: 1rem;
+}
+
+.topnav a {
+  float: left;
+  color: #02a7f0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #02a7f0;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #02a7f0;
+  color: white;
+}
+
+.formulaire {
+    gap: 1em;
+    width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulaire > div {
+    gap: 2em;
+    width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#headerLogo {
+  height: 75px;
+}
+#megaliste {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  list-style-type: none;
+}
+footer {
+  height: 100px;
+  display: flex;
+  align-content: space-between;
+}
+.réseauxSociaux {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.fbLogo {
+  max-width: 1rem;
+  max-height: 0.5px;
+}
+.instaLogo {
+  max-width: 0.5px;
+  max-height: 0.5px;
+}
+.twitterLogo {
+  max-width: 0.5px;
+  max-height: 0.5px;
+}
