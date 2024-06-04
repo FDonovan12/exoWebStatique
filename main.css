@@ -166,22 +166,13 @@ footer {
     display: flex;
     align-content: space-between;
 }
+.réseauxSociaux img {
+    max-width: 1em;
+    max-height: 1em;
+}
 .réseauxSociaux {
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: space-evenly;
-}
-
-.fbLogo {
-    max-width: 1rem;
-    max-height: 0.5px;
-}
-.instaLogo {
-    max-width: 0.5px;
-    max-height: 0.5px;
-}
-.twitterLogo {
-    max-width: 0.5px;
-    max-height: 0.5px;
 }
