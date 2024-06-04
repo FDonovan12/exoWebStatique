@@ -1,3 +1,8 @@
+
+*{
+  font-family: 'Poppins';
+}
+
 :root {
   --blue-color: #02a7f0;
   --orange-color: #f59a24;
@@ -6,12 +11,14 @@
   --gray-color: #686868;
 }
 
-.h1 {
+h1 {
   color: var(--blue-color);
   text-align: center;
   object-fit: contain;
-  margin: 2em;
-  font-size: 40em;
+  margin-top: 1.2em;
+  margin-bottom: 0em;
+  font-size: 5em;
+
 }
 
 .div1img {
@@ -19,21 +26,23 @@
   height: 500px;
   width: 100%;
   background-position: center;
-  background-size: f;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .div1paragraph {
-  border: blue 1px dotted;
-  width: 35em;
+  border: var(--blue-color) 0.2em solid;
+  border-radius: 2.5em;
+  background-color: rgba(100, 100, 100, 0.8);
+  color: var(--light-gray);
   height: auto;
-  margin: 2em;
+  margin: 2em 15em 15em 15em;
+  padding: 2em 2em 0.5em 2em;
   text-align: center;
   flex-direction: column;
   align-items: center;
+  font-size: 1.4em;
 }
 
 .div1btn {
@@ -41,8 +50,10 @@ text-align: center;
 border: none;
 background-color: var(--blue-color);
 border-radius: 5px;
-margin: 2em;
-padding: 2em;
+margin-top: 0.8em;
+padding: 1.2em;
+padding-left: 2em;
+padding-right: 2em;
 color: var(--light-gray);
 }
 
