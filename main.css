@@ -193,12 +193,23 @@ footer {
     align-content: space-evenly;
 }
 .googleMap {
-    height: 15em;
-    width: 25em;
-    max-width: 50%;
-    max-height: 50%;
+    height: 250px;
 }
 
+.formulaireNewsletter > form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.formulaireNewsletter #boutonEnvoyer {
+    background-color: var(--orange-color);
+    border-radius: 15px;
+    color: white;
+}
+.formulaireNewsletter :not(#boutonEnvoyer) {
+    border-color: var(--orange-color);
+}
 .formulaireNewsletter {
     display: flex;
     flex-direction: column;
