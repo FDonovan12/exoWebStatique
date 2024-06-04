@@ -133,15 +133,18 @@ header {
     background-color: #02a7f0;
     color: white;
 }
-
+.contact > img {
+    max-height: 500px;
+}
 .contact {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     gap: 1em;
     height: 500px;
+    width: 100%;
     align-self: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .formulaire {
