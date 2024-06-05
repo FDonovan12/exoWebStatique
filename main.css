@@ -38,7 +38,8 @@ h1 {
     background-color: rgba(100, 100, 100, 0.8);
     color: var(--light-gray);
     height: auto;
-    margin: 2em 15em 15em 15em;
+    margin: 2em 0em 0em 0em;
+    width: 80%;
     padding: 2em 2em 0.5em 2em;
     text-align: center;
     flex-direction: column;
@@ -110,11 +111,13 @@ section {
 .services i {
     position: relative;
     top: 20px;
-    color: white;
+    color: transparent;
     background-color: var(--blue-color);
+    background: linear-gradient(red, blue);
     font-size: 2em;
     padding: 0.3em;
     border-radius: 50%;
+    background-clip: text;
 }
 
 header {
@@ -180,6 +183,7 @@ header {
 
 #headerLogo {
     height: 75px;
+    vertical-align: top;
 }
 #megaliste {
     display: flex;
