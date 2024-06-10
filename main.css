@@ -140,15 +140,19 @@ section {
     padding: 0.5em;
     padding-top: 1em;
 }
-.services i {
+.test-logo {
+    background-color: var(--blue-color);
     position: relative;
     top: 20px;
+    border-radius: 50%;
+}
+.services i {
     color: transparent;
-    background-color: var(--blue-color);
     background: linear-gradient(red, blue);
+    /* border: 2rem solid var(--blue-color); */
+    border-radius: 50%;
     font-size: 2em;
     padding: 0.3em;
-    border-radius: 50%;
     background-clip: text;
 }
 
